@@ -1,13 +1,15 @@
 # Presenter Notes: Live Demo
 
-Run-of-show for presenting the [README](README.md) tutorial live. Takes about 10 minutes.
+Run-of-show for presenting the [README](README.md) tutorial live, as done in the
+[NASA AI/ML STIG Lecture Series talk on 9 November 2026](https://science.nasa.gov/astrophysics/programs/cosmic-origins/community/ai-ml-stig-lecture-series-9-nov-2026/).
+Takes about 10 minutes.
 
 ## Before you go on
 
 ```bash
 cd workspace
 claude mcp remove ned -s local     # ignore the error if it isn't registered
-rm -rf ./* .venv                   # workspace/ should be empty
+rm -rf ./* .venv .jupyter          # workspace/ should be empty
 ```
 
 - Open a terminal in `workspace/` and make the font large.
