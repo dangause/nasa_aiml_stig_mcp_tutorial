@@ -157,7 +157,11 @@ persona menu and select **Claude**. Then ask:
 
 > What are the coordinates of M87?
 
-Claude should call `resolve_object` from inside JupyterLab.
+Claude should call `resolve_object` from inside JupyterLab:
+
+<img src="images/jupyter_ai_chat.png"
+     alt="Jupyter AI chat in JupyterLab: Claude calls mcp__ned__resolve_object and answers with M87's coordinates from NED"
+     width="600">
 
 > **Tips**
 > - Jupyter AI reads `mcp_settings.json` when it starts. If you edit the file,
